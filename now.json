@@ -1,0 +1,13 @@
+{
+	"name": "web-wringer",
+	"version": 2,
+	"builds": [
+		{ "src": "functions/*.js", "use": "@now/node" },
+		{ "src": "package.json", "use": "@now/static-build", "config": { "distDir": "public" } }
+	],
+	"routes": [
+		{ "src": "/next", "dest": "/functions/next.js" },
+		{ "src": "/prev", "dest": "/functions/prev.js" },
+		{ "src": "/rand", "dest": "/functions/rand.js" }
+	]
+}

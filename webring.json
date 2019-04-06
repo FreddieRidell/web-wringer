@@ -1,19 +1,6 @@
 {
 	"title": "Web Wringer 🖇️🕸️",
 	"description": "A webring of webrings",
-	"sites": [
-		{
-			"title": "FreddieRidell.com",
-			"url": "https://freddieridell.com",
-			"description": "My Personal Site"
-		},
-		{
-			"title": "localhost",
-			"url": "http://localhost:5000",
-			"description": "just testing"
-		}
-	],
-
 	"maintainer": {
 		"name": "Freddie Ridell",
 		"link": "https://twitter.com/FreddieRidell"
@@ -21,5 +8,12 @@
 	"repo": {
 		"name": "github",
 		"link": "https://github.com/freddieridell/webwringer"
-	}
+	},
+	"sites": [
+		{
+			"title": "Web Wringer",
+			"url": "https://web-wringer.freddieridell.now.sh",
+			"description": "A webring of webrings"
+		}
+	]
 }
