@@ -5,10 +5,11 @@
 
 1. fork this repo
 2. update `webring.json` with your sites.
-3. (optional) update `public/styles.css`
-3. signup to [now]
-4. `npx now`
-5. (optional) make a pr to add your new webring to [webwringer.com] 🙂
+3. update `now.json` with your domain name
+4. (optional) update `public/styles.css`
+5. signup to [now]
+6. `npx now`
+7. (optional) make a pr to add your new webring to [webwringer.com] 🙂
 
 ## Use the your new Web Ring
 1. host your new web ring at `example-web-ring.com`
