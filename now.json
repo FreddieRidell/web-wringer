@@ -2,6 +2,10 @@
 	"name": "web-wringer",
 	"version": 2,
 	"alias": ["webwringer.com"],
+	"github": {
+		"enabled": false,
+		"autoAlias": false
+	},
 	"builds": [
 		{ "src": "functions/*.js", "use": "@now/node" },
 		{ "src": "package.json", "use": "@now/static-build", "config": { "distDir": "public" } }
