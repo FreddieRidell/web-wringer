@@ -34,6 +34,10 @@ main {
 	width: 100%;
 }
 
+article {
+	margin: 0 1rem;
+}
+
 header { margin: 3rem 2rem 3rem; }
 
 h1 {
