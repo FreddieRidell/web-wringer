@@ -27,3 +27,4 @@ Once your new web ring is setup (e.g at `boat-enthusiasts.com`), it's easy to ad
 [now]: https://zeit.co/now
 [webring]: https://en.wikipedia.org/wiki/Webring
 [webwringer.com]: https://webwringer.com
+[personal-sites-ring]: https://personal-sites-web-ring.freddieridell.now.sh/
