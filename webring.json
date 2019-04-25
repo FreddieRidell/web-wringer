@@ -14,6 +14,11 @@
 			"title": "Web Wringer",
 			"url": "https://webwringer.com",
 			"description": "A webring of webrings"
+		},
+		{
+			"title": "Personal Sites",
+			"url": "https://personal-sites-web-ring.freddieridell.now.sh/",
+			"description": "Personal sites and portfolios of mainly JS developers"
 		}
 	]
 }
