@@ -9,7 +9,7 @@ module.exports = (req, res) => {
 		return parse(url).hostname === hostname;
 	});
 
-	const toIndex = ( fromIndex - 1 ) % sites.length;
+	const toIndex = ( sites.length + fromIndex - 1 ) % sites.length;
 	const toUrl = sites[toIndex].url;
 
 	res.writeHead(302, {
